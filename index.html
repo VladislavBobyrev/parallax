@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style/style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <title>Fasion</title>
+</head>
+<body class="body">
+  <div class="wrapper">
+    <nav class="nav">
+      <div class="logo">logotype</div>
+
+        <ul class="list menu">
+          <li class="item item__menu">lovation</li>
+          <li class="item item__menu"> menu</li>
+          <li class="item item__menu"> store</li>
+          <li class="item item__menu"> teem</li>
+          <li class="item item__menu">contact us</li>
+        </ul>
+
+      <div class="account">my account</div>
+
+    </nav>
+
+  <div class="content">
+    <div class="tagline">Fined your clean juice</div>
+    <div class="pages"><span>2</span>/21</div>
+    <div class="title">black</div>
+    <div class="more"><a href="#">show all juices</a></div>
+
+    <div class="desc">
+      <p>        Your <span>healti life starts</span> here with us      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, impedit?</p>
+    </div>
+  </div>
+
+  <div class="juice"><img src="./images/juice.png" alt=""></div>
+  <div class="leaves">
+    <ul  data-relative-input="true" id="scene">
+      <li class="layer" data-depth="4.1"><img src="./images/leaf01.png"  alt="leaf01"></li>
+      <li class="layer" data-depth="-1.3"><img src="./images/leaf02.png"  alt="leaf02"></li>
+      <li class="layer" data-depth="-.3"><img src="./images/leaf03.png"  alt="leaf03"></li>
+      <li class="layer" data-depth="2.1"><img src="./images/leaf04.png"  alt="leaf04"></li>
+      <li class="layer" data-depth="-3.3"><img src="./images/leaf05.png"  alt="leaf05"></li>
+    </ul>
+  </div>
+  </div>
+
+  <script src="./src/js/app.js"></script>
+  <script>
+    console.log(new Parallax(scene))
+  </script>
+</body>
+</html>
